@@ -15,10 +15,10 @@ export const projects = [
       "./assets/img/projects/waldo/waldo4.jpg",
     ],
     description: [
-      "The goal of this project was to build something similar to a photo tagging app using ReactJS on the front-end and learn how to use Firebase/Firestore to run the back-end.",
-      "To make things fun, I went with a Waldo Game where the player has to click on an image to find a set of characters. Whenever the player clicks on the image and selects a character, a feedback is always sent back to let him know whether he has found the character or not.",
+      "The goal with this project was to build something similar to a photo tagging app using ReactJS on the front-end and learn to use Firebase/Firestore to run the back-end.",
+      "To make things fun, I built a Waldo Game where the player clicks on an image to find a set of characters. Whenever the player clicks on the image and selects a character, he is immediately prompted with an alert that notifies him whether the character is found or not.",
 
-      "This project was particularly interesting as it had me play with the window size, getting click coordinates and positioning elements with these coordinates. The clicks and selections logic happens on the front-end, whereas the backend is holding information about the different characters to find.",
+      "I found this project interesting because it had me manipulate the window object, getting click coordinates and positioning elements with these coordinates. The clicks and selections logic happens on the front-end, whereas the backend holds information about the different characters to find.",
 
       "If you are not familiar with Waldo, it's a game where the player has to find different characters in a totally bizarre scenery! Try it out in the live preview and see if you can make it to the leaderboard!",
     ],
@@ -49,7 +49,7 @@ export const projects = [
       "./assets/img/projects/shop/shopcart3.jpg",
     ],
     description: [
-      'This project was made to piece together all my learning with ReactJS (heavily focused on functional components + hooks) and work with "react-router-dom" to manage the navigation to different pages.',
+      "This project was made to piece together my learning of ReactJS which was heavily focused on Functional Components and Hooks. It also uses React Router DOM to manage dynamically the navigation to the different pages.",
       "The main focus of this project wasn't so much to build a shop. But more so to focus on the shopping cart functionality which lets the user add, edit, delete products and have an immediate feedback of the products count and total price.",
     ],
     skills: [
@@ -71,8 +71,9 @@ export const projects = [
     thumbnail: "./assets/img/projects/thumbnails/thumb-memory.jpg",
     images: ["./assets/img/projects/memory/memory.jpg"],
     description: [
-      'This memory game was made to cement some of the new concepts I learned with ReactJS and especially how React Hooks work and how they can act similarly to the "lifecycle" of the Class components.',
-      "Game rules: There are 10 images in total. You score 1 point everytime you click on a new fruit. If the fruit you clicked on was previously clicked, you lose and the score  resets. Of course, to make things more difficult, the game board is shuffled whenever an image is clicked! Challenge your memory and get the highest score! You can try the game in the live preview.",
+      'Memory Game was made to cement some of the new concepts I learned with ReactJS and especially how React Hooks work and how they can act similarly to the "lifecycle" of the Class Components.',
+      "Game rules: There are 10 images in total. 1 point is scored every time a new fruit is clicked. If the fruit clicked was previously clicked, you lose and the current score resets. To make things more difficult, the game board is shuffled whenever an image is clicked! ",
+      "Challenge your memory and get the highest score! You can try the game in the live preview.",
     ],
     skills: [
       {
@@ -96,7 +97,7 @@ export const projects = [
       "./assets/img/projects/cv/cv2.jpg",
     ],
     description: [
-      "Quick CV is an app that lets users input information and generate a very basic CV.",
+      "Quick CV is an app that lets users input information and generate a basic CV.",
       "That was the first project I made with ReactJS. Its main focus was to help me get the basics of ReactJS by learning how Class Components and Props work.",
     ],
     skills: [
@@ -122,8 +123,8 @@ export const projects = [
       "./assets/img/projects/tictactoe/tic3.jpg",
     ],
     description: [
-      "This Tic Tac Toe game was made with the intent to explore the idea of privacy in JavaScript by implementing some of its concepts, such as the Module pattern using Immediately Invoked Function Expression (IIFE) and Closures.",
-      "Module pattern is a great way to create private methods and properties. That means that we can protect any state/information within a function and only reveal specifics parts by returning them as public methods.",
+      "This Tic Tac Toe game was made to explore the idea of privacy in JavaScript by using the Module pattern, Immediately Invoked Function Expression (IIFE) and Closures.",
+      "Module patterns are a great way to create private methods and properties. This way, any state within a function can be hidden or revealed when returned as public methods. In this particular project, all the logic is hidden in module patterns.",
       "The game is available in the live preview. Take a break and grab someone nearby to  challenge them to a Tic Tac Toe!",
     ],
     skills: [
@@ -145,8 +146,8 @@ export const projects = [
     thumbnail: "./assets/img/projects/thumbnails/thumb-book.jpg",
     images: ["./assets/img/projects/mybookshelf/mybookshelf.jpg"],
     description: [
-      "myBookShelf is a library app that will let you keep track of books you are reading",
-      "This is your typical basic JavaScript app. It lets a user input information and renders them. It was made so I could get comfortable around DOM manipulation, instantiate objects and learn how to use the localStorage to store data.",
+      "myBookShelf is a library app that keeps track of books read.",
+      "This is a basic JavaScript app that lets a user submit and render information. It is perfect to learn about DOM manipulation, object instantiation and localStorage to store data locally.",
     ],
     skills: [
       {
@@ -171,8 +172,8 @@ export const projects = [
       "./assets/img/projects/newhab/01pochette1.jpg",
     ],
     description: [
-      "TheNewHab Challenge website was initially made to be paired with a podcast project aimed at building new healthy habits. Two episodes were made, but we eventually realized that the audio space wasn't our thing and the project faded.",
-      "At the time, I took this opportunity to explore Ruby On Rails and SASS. You can see below some of the mockups I worked on, such as the website layout, logo and podcast cover.",
+      "TheNewHab Challenge website was initially made to be paired with a podcast project aimed at building new healthy habits. Two episodes were made, but we realized that the audio space wasn't for us.",
+      "However, this project gave me the opportunity to explore Ruby On Rails and SASS. You can see below some of the mockups I worked on, such as the website layout, logo ,and podcast cover.",
     ],
     skills: [
       {
@@ -191,8 +192,8 @@ export const projects = [
       "./assets/img/projects/travelstep/02itineraire.jpg",
     ],
     description: [
-      "I love travel and the idea of building a website around it has been in a corner of my head for awhile. I enjoy exploring ideas throught prototyping and mockups (mostly using Photoshop).",
-      "After playing with different ideas, TravelStep was the most fruitful one. Below are some mockups I was playing with.",
+      "I love travel and building a website around it has always been in a corner of my head. While waiting for the perfect concept, I've been enjoying exploring ideas and prototyping.",
+      "TravelStep was one of these ideas.",
     ],
     skills: [
       {
@@ -209,9 +210,8 @@ export const projects = [
       "./assets/img/projects/portfolioprototype/Prototype---Portfolio.jpg",
     ],
     description: [
-      "This is an older portfolio of mine. It is mostly showcasing parts of the design process I take with projects.",
-      "Before jumping into mockups, I usually like to breakdown the different visual pieces, into color palette, fonts, size and spacing. It helps me to be consistent throughout a project.",
-      "I will then work on responsive mockups to have an idea of how a website will behave on mobile and web.",
+      "This is an older portfolio of mine. It is showcasing parts of my design process.",
+      "I like to start by breaking down the design elements into color palettes, fonts and spacing. It helps me with consistency throughout a project. Then I work on a mobile and web mockup to visualize the responsive behaviours.",
     ],
     skills: [
       {
@@ -226,7 +226,8 @@ export const projects = [
     thumbnail: "./assets/img/projects/thumbnails/thumb-logo.jpg",
     images: ["./assets/img/projects/personallogo/03personallogo.jpg"],
     description: [
-      "Designing a logo often starts with doodling on a piece of paper. After spending some time on Behance and Dribbble, I got inspired and wanted to work on a logo concept for myself. You can see below some of the thought process.",
+      "Spending time on Behance and Dribbble got me inspired and led me to work on a logo concept for myself.",
+      "Few key concept here. I love minimalist design. I love the outdoors and green reminds me of it, and finally my last name is short enough that I can play around with it!",
     ],
     skills: [
       {
@@ -244,7 +245,7 @@ export const projects = [
       "./assets/img/projects/driftyfeet/05proto2-2.jpg",
     ],
     description: [
-      "I love travel and I have countless footage of them! To make use of them I started to make short clips to share with friends and family. DriftyFeet was born in this context because I wanted to add a logo to my videos!",
+      "I love traveling and ended up with lots of footage! To make use of them I started making short clips to share with friends and family. DriftyFeet was born because I wanted to add a logo to my videos!",
       "Below are some of the concepts I came up with.",
     ],
     skills: [
@@ -263,8 +264,8 @@ export const projects = [
       "./assets/img/projects/taiwan/map.jpg",
     ],
     description: [
-      "In 2015, I lived in Taiwan and loved it so much that I decided to get on a bike and tour the entire island for weeks!",
-      "I was eventually invited to share my experience in a local event and made that flyer for that occasion.",
+      "In 2015, I lived in Taiwan and loved it so much that I decided to bike the entire island!",
+      "I was eventually invited to share my experience in a local event and made that flyer for the occasion.",
     ],
     skills: [
       {
@@ -279,8 +280,8 @@ export const projects = [
     thumbnail: "./assets/img/projects/thumbnails/thumb-upgcard.jpg",
     images: ["./assets/img/projects/upgeneration/07print.jpg"],
     description: [
-      "At the time I was working at Up’Generation, it was customary to send a thank you/happy new year card to our partners.",
-      "In this particular card, we wanted to emphasize gratefulness for our partnerships and wish an innovating year to all of them.",
+      "At the time I was working at Up’Generation, it was customary to send a happy new year card to our partners.",
+      "In this card, we wanted to emphasize gratefulness for partnerships and wish innovation and success to everyone.",
     ],
     skills: [
       {
@@ -297,7 +298,7 @@ export const projects = [
     description: [
       "TAM Place is a social network for businesses powered by Up'Generation.",
       "I got hired as a Web Designer to revitalize the app design, and customized interfaces for our clients.",
-      "Below is one of the user interface I worked on.",
+      "Here is one of the interface I worked on.",
     ],
     skills: [
       {
@@ -316,9 +317,8 @@ export const projects = [
       "./assets/img/projects/le/LE03.jpg",
     ],
     description: [
-      "Lointains Espaces was a travel agency offering tour packages in Asia.",
-      "The agency already had a logo and only needed a website. I took part in this project as a webdesigner and partner with a developer. Sadly, the website was taken down and the agency no longer exists due the pandemic.",
-      "Below are some of the mockups I made.",
+      "Lointains Espaces was a travel agency that needed a website to show their tour packages in Asia.",
+      "I took part in this project as a web designer and partner with a developer to build the website.", "Sadly, the website and the agency no longer exists due the pandemic.",
     ],
     skills: [
       {
@@ -354,7 +354,7 @@ export const projects = [
       "./assets/img/projects/tank/09TANK.jpg",
       "./assets/img/projects/tank/resultat.jpg",
     ],
-    description: ["This logo was made for a local collective in my hometown"],
+    description: ["This logo was made for a local collective in my hometown."],
     skills: [
       {
         skillName: "photoshop",
