@@ -470,54 +470,6 @@ section#project-ft {
 HOME / contact section
 ===================================
 */
-.contact-form {
-  width: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-.contact-form input,
-.contact-form textarea,
-.contact-form .contact-col2 {
-  width: 100%;
-}
-.contact-form input[type="text"] {
-  margin-right: var(--input-margin);
-}
-.contact-form input[type="email"] {
-  margin-left: var(--input-margin);
-}
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  padding: 0.5rem 0 0 1rem;
-  margin-bottom: var(--input-margin);
-  border-radius: var(--radius);
-  border: 1px solid var(--clr-green);
-}
-.contact-form input[type="text"],
-.contact-form input[type="email"] {
-  height: 3rem;
-}
-.contact-form textarea {
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 10rem;
-  max-height: 20rem;
-}
-::placeholder {
-  font-style: italic;
-  font-size: 1.2rem;
-  color: rgba(128, 128, 128, 0.5);
-}
-.contact-col2 {
-  margin-top: 1rem;
-}
-.btn-contact {
-  font-weight: bold;
-}
 .findme {
   text-align: center;
 }
@@ -539,6 +491,17 @@ HOME / contact section
 .findme-icons > a:hover {
   color: var(--clr-green);
   font-size: 1.1em;
+}
+.btn-contact {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn-contact a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /* 
@@ -813,7 +776,7 @@ Media queries
     transform: translateY(0%);
   }
   .project-card-overlay:hover > .project-card-overlay__header {
-    transform: translateY(70%);
+    transform: translateY(40%);
   }
   .project-card-overlay__button {
     transform: translateY(40%);
@@ -826,13 +789,13 @@ Media queries
   }
 }
 @media screen and (min-width: 500px) and (max-width: 800px),
-  (min-width: 855px) and (max-width: 1199px) {
+  (min-width: 900px) and (max-width: 1199px) {
   /* Project Cards */
   .project-card-overlay__header h3 {
     font-size: 2rem;
   }
   .project-card-overlay:hover > .project-card-overlay__header {
-    transform: translateY(85%);
+    transform: translateY(60%);
   }
   .project-card-overlay:hover > .project-card-overlay__button {
     transform: translateY(-50%);
@@ -879,14 +842,6 @@ Media queries
   }
   .project-card {
     margin-bottom: 0px;
-  }
-
-  /* Contact section */
-  .contact-form {
-    max-width: 800px;
-  }
-  .contact-col2 {
-    display: flex;
   }
 }
 

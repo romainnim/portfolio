@@ -2,11 +2,12 @@ import React from "react";
 /* icons */
 import { VscGithub } from "react-icons/vsc";
 import { AiFillLinkedin } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
     <section id="contact">
-      <h1 className="section-title">Let's get in touch!</h1>
+      <h1 className="section-title">Get in touch!</h1>
       <div className="findme">
         <p>
           I am currenty available and would love to hear about any opportunities
@@ -30,27 +31,16 @@ const Contact = () => {
           </a>
         </div>
         <hr className="line-separator" />
-        <p>Email Me</p>
+        <p>or Email Me</p>
       </div>
-
-      <form
-        className="contact-form"
-        action="mailto:romain.nim+website@gmail.com"
-        method="get"
-        encType="application/x-www-form-urlencoded"
-      >
-        <div className="contact-col2">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-        </div>
-        <textarea
-          name="subject"
-          placeholder="Let me know what you have in mind and I will get back to you as quickly as possible!"
-        ></textarea>
-        <button type="submit" className="btn btn-contact">
-          Submit
-        </button>
-      </form>
+      <div className="btn-contact">
+        <a
+          href="mailto:contact@romain-nim.com"
+          className="btn"
+        >
+          Say Hello! <MdEmail />
+        </a>
+      </div>
     </section>
   );
 };

@@ -16,7 +16,7 @@ const KnowMe = () => {
     <section id="know-me">
       <div className="center-content">
         <div className="section-title">
-          <h1>Get to know me</h1>
+          <h1>About Me</h1>
         </div>
           <Link smooth to={skillLink.url} className="knowme-subnav">
             <HiOutlineArrowNarrowDown className="knowme-subnav-icon"/> Learn more about my skills
