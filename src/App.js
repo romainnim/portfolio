@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+/* Components */
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop"; // When changing routes, react-router-dom doesn't automatically scroll back to the top. This custom component wraps the entirely app to bypass this issue
+/* Pages */
+import { Home, Project, SingleProject, Error } from "./pages";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="project" element={<Project />} />
+          <Route path="project/:projectID" element={<SingleProject />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </ScrollToTop>
+      <Footer/>
+    </>
   );
 }
 
